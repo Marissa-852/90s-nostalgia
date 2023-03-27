@@ -40,3 +40,28 @@ nav ul li {
 nav {
     text-align: center;
 }
+
+nav a {
+    display: inline-block;
+    padding: .5em .75em .5em .75em;
+    border-radius: 8px;
+}
+
+nav a {
+    background-color: purple;
+    color: #fff;
+    border: #fff 2px solid;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: purple;
+    border: purple 2px solid;
+}
+
+nav a:focus {
+    background-color: #fff;
+    color: purple;
+    border: purple 2px solid;
+}
