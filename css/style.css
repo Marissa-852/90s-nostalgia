@@ -26,3 +26,17 @@ img {
     margin: auto; 
     padding: 1.5em 0 1.5em 0;
 }
+
+header {
+    padding: 1.5em 0 1.5em 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: none;
+}
+
+nav {
+    text-align: center;
+}
