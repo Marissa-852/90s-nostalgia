@@ -65,3 +65,23 @@ nav a:focus {
     color: purple;
     border: purple 2px solid;
 }
+
+.hero {
+    width: 100%;
+    padding: 10em 0 10em 0;
+    background-image: url(../images/greatest-90s-fashion-trends.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.hero h1 {
+    width: 75%;
+    padding: .5em .5em .5em .5em;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
+    background-color: rgba(0,0,0,.25)
+}
