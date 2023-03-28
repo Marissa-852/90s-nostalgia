@@ -6,7 +6,9 @@ html {
     background-color: white;
     box-sizing: border-box;
 }
-
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 body {
     margin: 0;
 }
@@ -112,10 +114,20 @@ div .icon {
     margin-right: 2em;
 }
 
-section p {
+section > p {
     float: none;
 }
 
 .featured-articles {
     display: none;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer > p:last-of-type {
+text-align: center;
+padding: 8px 0 8px 0;
 }
